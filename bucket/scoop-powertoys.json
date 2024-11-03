@@ -8,10 +8,10 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Quriz/PowerToysRunScoop/releases/download/v0.85.1/Scoop-v1.3.3-x64.zip"
+            "url": "https://github.com/Quriz/PowerToysRunScoop/releases/download/v1.3.3/Scoop-v1.3.3-x64.zip"
         },
         "arm64": {
-            "url": "https://github.com/Quriz/PowerToysRunScoop/releases/download/v0.85.1/Scoop-v1.3.3-arm64.zip"
+            "url": "https://github.com/Quriz/PowerToysRunScoop/releases/download/v1.3.3/Scoop-v1.3.3-arm64.zip"
         }
     },
     "post_install": "New-Item -ItemType Junction -Path \"$env:LOCALAPPDATA\\Microsoft\\PowerToys\\PowerToys Run\\Plugins\\Scoop\" -Target \"$dir\\Scoop\" | Out-Null",
